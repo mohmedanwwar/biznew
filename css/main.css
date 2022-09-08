@@ -1,0 +1,710 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #556877;
+
+}
+.navbar-brand img{
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    
+}
+.navbar{
+    height: 85px;
+    background-color: #fff;
+}
+.navbar-nav{
+    background-color: white;
+}
+.navbar-nav .nav-item{
+    margin: 0px 5px;
+}
+.navbar-nav li .nav-link{
+    color: #004289;
+    padding-left: 30px;
+    transition: all 0.5s;
+}
+.navbar-nav li .nav-link:hover{
+    color: #0a58ca;
+}
+.navbar-nav li .nav-link:focus{
+    color: #0a58ca;
+}
+.nav-drop-1{
+    position: relative;
+}
+.dropdown_menu_1{
+    display:none;
+}
+.dropdown_menu_1,.dropdown_menu_2{
+    transition: all 1s;
+
+}
+.nav-drop-1:hover .dropdown_menu_1{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    list-style-type: none;
+    width: 200px;
+}
+.dropdown_menu_1 li{
+    margin: 15px 10px;
+}
+.dropdown_menu_1 li a{
+    color: #004289;
+    transition: all 0.5s;
+}
+.dropdown_menu_1 li a:hover{
+    text-decoration: none;
+    color: #0a58ca;
+}
+.nav-drop-2{
+    position: relative;
+}
+
+.dropdown_menu_2{
+    display: none;
+}
+.nav-drop-2:hover .dropdown_menu_2{
+    display: block;
+    position: absolute;
+    left: 100%;
+    list-style-type: none;
+    margin: 0px;
+    width: 150%;
+    top: -30px;
+}
+/* ===============================================end nav ======================== */
+.home{
+    background-image: url(../image/header-bg.png);
+    padding: 165px 0px;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.info-1{
+    margin: 50px 0px;
+}
+.info-1 h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 48px;
+}
+.info-1 h1 span{
+    display: block;
+    color: #74b5fc;
+    text-decoration: underline;
+}
+.btns{
+    margin-top: 50px;
+}
+.btns button{
+    margin-right:  30px;
+}
+.btn{
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 10px 40px;
+    font-weight: bold;
+    transition: all 0.7s;
+    border: 2px solid #007bff;
+    margin: 10px;
+}
+.btn1:hover{
+    background-color: transparent;
+    border: white solid 2px;
+}
+.btn2{
+    background-color: transparent;
+    border: white solid 2px;
+}
+.btn2:hover{
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    color: #fff;
+}
+.about{
+    padding: 80px 0px;
+}
+.info-3 h1{
+    color: #283d50;
+    font-size: 34px;
+}
+.info-3 p{
+    width: 60%;
+    margin: 0px auto;
+    font-size: 16px;
+}
+.info-4{
+    margin: 30px 0px;
+}
+.icon-p{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-p .icona{
+    margin: 0px 15px;
+}
+.icon-p div i{
+    font-size: 30px;
+    margin:  15px auto ;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    transition: .3s ease-in-out;
+    padding: 15px;
+    color: #007bff;
+}
+
+.icon-p h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+.icon-p p{
+    font-size: 14px;
+}
+.info-5{
+    padding: 0px;
+}
+.l-1:hover i{
+    color: white;
+    background-color: #007bff;
+    border: 2px solid  #007bff;
+}
+.l-2:hover i{
+    color: white;
+    background-color: #007bff;
+    border: 2px solid  #007bff;
+}
+.l-3:hover i{
+    color: white;
+    background-color: #007bff;
+    border: 2px solid  #007bff;
+}
+.info-6{
+    padding: 100px 0px;
+}
+.info-6 p{
+    margin-bottom: 30px;
+}
+
+.info-7{
+    margin: 20px 0px;
+}
+
+.info-7 p{
+    margin-bottom: 30px;
+}
+/* ============================================================end about=============================== */
+.services{
+    box-shadow: inset 0px 0px 30px 0px rgba(0, 0,0 , 0.175);
+    background-color: #ecf5ff;
+    padding: 70px 0px;
+}
+.info-9{
+    margin: 50px 0px;
+    justify-content: center;
+}
+
+.info-10{
+    background-color: white;
+    margin: 10px 10px;
+    padding: 30px 20px;
+    border-radius: 15px !important;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0,0 , 0.175);
+    transition: all 1s;
+}
+.info-10 i{
+    margin: 20px 20px;
+    font-size: 55px;
+}
+.card-info h3{
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.card-1 i{
+    color: #ff689b;
+}
+
+.card-2 i{
+    color: #e9bf06;
+}
+.card-3 i{
+    color: #3fcdc7;
+}
+.card-4 i{
+    color: #41cf2e;
+}
+.card-6 i{
+    color: #3fcdc7;
+}
+.card-5 i{
+    color: #d6ff22;
+}
+.info-10:hover h3{
+    color: #007bff;
+}
+.info-10:hover{
+    transform: translatey(-10px);
+}
+/* =================================end services================================== */
+.why{
+    background-color: #004a99;
+    color: white;
+    padding: 50px 0px;
+}
+.info-11 p{
+    color: white;
+}
+.why .card{
+    background: #00458f;
+    border-color: #00458f;
+    margin: 0 15px;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.why .info-12 .card:hover{
+    background: #003b7a;
+    border-color: #003b7a;
+}
+
+
+.info-12{
+    margin: 20px 0px;
+}
+.info-12 .card p{
+    color: white;
+    margin-bottom:28px ;
+}
+.why .info-12 .card h3{
+    font-weight: bold;
+    margin: 25px 0px;
+    
+}
+.why .info-12 .card i{
+    font-size: 48px;
+    padding: 10px 0px;
+    color: #bfddfe;
+}
+.why .info-12 .card a{
+    color: white;
+    padding-bottom: 0px;
+    border-bottom: #00458f solid 2px;
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    transition: all 1s;
+}
+.why .info-12 .card a:hover{
+    border-bottom: white solid 2px;
+    text-decoration: none;
+}
+.info-13{
+    margin: 10px 0px;
+}
+.info-14{
+    padding: 20px 0px;
+}
+.info-14 h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+.info-14 p{
+    color: #cce5ff;
+}
+/* ================================================================================================ */
+.portoflio{
+    padding: 60px 0px;
+}
+.info-15{
+    margin: 20px 0px;
+}
+.info-16{
+    margin:20px 0px;
+}
+.portoflio nav{
+    margin: 0px 365px;
+    padding: 25px 20px;
+}
+
+.nav-tabs{
+    border: none;
+
+}
+.nav-tabs .nav-link{
+    margin: 5px 20px;
+    background: #ecf5ff;
+    color: #007bff;
+    border-radius: 50px;
+    transition: all 0.7s;
+}
+.nav-tabs .nav-link:hover
+{
+    color: white;
+    background-color: #007bff;
+    border-radius: 50px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+
+}
+
+
+.info-16 .card{
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 23;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+.info-16 .card .caption p{
+    color: white;
+}
+.info-16 .card .caption i{
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.info-16 .card .caption{
+    position: absolute;
+    background-color: rgba(0, 74, 153,.725);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 80px 0px;
+    color: white;
+    /* top: 100%; */
+    transition: all 1s;
+    opacity: 0;
+
+}
+.info-16 .card:hover .caption {
+    /* top: 0%; */
+    opacity: 1;
+}
+
+/* =========================================end portoflio======================== */
+.who{
+    box-shadow: inset 0px 0px 30px 0px rgba(0, 0,0 , 0.175);
+    background-color: #ecf5ff;
+    padding: 70px 0px;
+}
+.who h1{
+    color: black;
+}
+.info-17{
+    padding: 30px 0px ;
+}
+.prof-img img{
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+}
+.prof-info{
+    margin-top: 20px;
+}
+.prof-info h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.prof-info h4{
+    color: #999;
+    font-size: 14px;
+}
+.prof-info p{
+    color:black;
+    font-style: italic;
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    left: 0;
+}
+.carousel-indicators li{
+    background-color: #007bff;
+}
+/* ====================================who======================================== */
+.team{
+    padding: 40px 0px;
+}
+.info-21{
+    padding: 30px 0px;
+}
+.info-21 .card{
+    border: none;
+    position: relative;
+    margin: 5px 0px;
+}
+.info-21 .card img{
+    border-radius: 50%;
+}
+.info-21 .card .team-cap{
+    position: absolute;
+    background-color: rgba(0, 74, 153,.725);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 80px 0px; 
+    transition: all 1s;
+    opacity: 0;
+    border-radius: 50%;
+}
+.info-21 .card .team-cap h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.info-21 .card .team-cap h4{
+    font-size: 14px;
+    color: white;
+}
+.info-21 .card .team-cap .t-icons{
+    margin: 10px 0px;
+}
+.info-21 .card .team-cap .t-icons i{
+    margin: 2px;
+    color: rgb(206, 204, 204);
+}
+.info-21 .card .team-cap:hover{
+    opacity: 1;
+}
+/* ============================************ end team *************** =================================== */
+.clients{
+    box-shadow: inset 0px 0px 30px 0px rgba(0, 0,0 , 0.175);
+    background-color: #ecf5ff;
+    padding: 70px 0px;
+}
+.info-23{
+    padding: 10px 0px;
+}
+.info-24{
+    margin: 20px 0px;
+}
+.logo_brand{
+    background-color: white;
+    padding: 40px;
+    height: 160px;
+    margin: 5px 0px;
+    
+}
+.info-24 img{
+    width: 100%;
+    transition: all 1s;
+}
+.info-24 img:hover{
+
+    transform: scale(1.2,1.2);
+}
+/* =========================================end clients======================== */
+.contact{
+    padding: 40px 0px ;
+    padding-bottom: 100px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+}
+.info-25 button{
+    margin: 0px auto;
+}
+.info-map{
+    display: flex;
+    justify-content: space-between;
+}
+.info-map i{
+    color: #007bff;
+    font-size: 28px;
+    margin-right: 5px;
+}
+/* ================================================ end contact================================ */
+footer{
+    padding: 50px 0px;
+    background: #004a99;
+    color: white;
+}
+.info-27 h1{
+    font-weight: 400px;
+}
+.info-27 p{
+    color: white;
+    font-size: 14px;
+}
+.info-28 h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.info-28 ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.info-28 ul li{
+    margin: 10px 0px;
+}
+.info-28 ul li a{
+    color: white;
+    font-size: 14px;
+    transition: all 1s;
+}
+.info-28 ul li a:hover{
+    text-decoration: none;
+    color: #007bff;
+}
+.info-29 h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.info-29 p{
+    color: white;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.info-29 .foot-icons i{
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px 0px;
+    transition: all 1s;
+}
+.info-29 .foot-icons i:hover{
+    background-color: #004a99;
+}
+.info-30 h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.info-30 p{
+    color: white;
+    font-size: 14px;
+}
+
+footer .btn-sub{
+    border-radius: 0px;
+    padding: 5px;
+}
+.copyright{
+    background-color: #00428a;
+    padding: 30px 0px;
+}
+.info-31 h4{
+    font-size: 14px;
+}
+.info-31 h4 span{
+    font-weight: bold;
+}
+.info-27,.info-28,.info-29,.info-30{
+    margin: 10px 0px;
+}
+
+/***************************end footer *********************************************/
+
+
+/**********======++++++++++___________+++))))))((((((()))))))))))))(((((((((
+
+))))))))))))))))))))(((((((((((((())))))**************/
+
+
+/********************************start media ************************************************/
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+   
+}
+@media (max-width: 991px){
+    .info-26{
+        margin: 30px 0px;
+    }
+    .info-map{
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 950px){
+    .info-3 p{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .info-10 {
+        background-color: white;
+        margin: 10px 0px;
+        padding: 16px 0px;
+        border-radius: 15px !important;
+        box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 18%);
+        transition: all 1s;
+    }
+    .info-13{
+        padding: 0px;
+        margin: 10px;
+
+    }
+    .info-13 .card{
+        margin:0px
+    }
+    .why .info-12 .card a{
+        width: 50%;
+    }
+    .prof-img img{
+        width: 200px;
+        border-radius: 50%;
+        float: left;
+    }
+    .info-26{
+        margin: 30px 0px;
+    }
+    .portoflio nav{
+        margin: auto;
+        padding: 10px auto; 
+
+    }
+    .nav-tabs .nav-link{
+        margin: 20px 13px;
+    }
+    .info-14{
+        padding: 20px 0px;
+        justify-content: space-around;
+
+    }
+    .info-map{
+        display: block;
+        justify-content: space-between;
+    }
+    .nav-drop-2:hover .dropdown_menu_2{
+        display: block;
+        position: absolute;
+        left: 0%;
+        list-style-type: none;
+        margin: 0px;
+        width: 150%;
+        top: 100%;
+    }
+    
+}
